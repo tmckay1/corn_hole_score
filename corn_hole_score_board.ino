@@ -110,8 +110,7 @@ boolean nine[LEDS_PER_DIGIT] = {
 #define INC_PIN   12
 #define DEC_PIN   14
 #define MAX_SCORE 21
-const int analogInPin = A0;
-int sensorValue = 0;
+
 int score = 0;
 int delayBetweenScoreChange = 200;
 
